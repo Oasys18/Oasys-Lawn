@@ -36,12 +36,12 @@
           width: 100%;
           opacity: 0;
           transition: .5s ease;
-          background-color: #008CBA;
+          background-color: white;
           z-index: 1;
         }
 
         .container2:hover .overlay {
-          opacity: 1;
+          opacity: 0.5;
         }
 
         .text {
