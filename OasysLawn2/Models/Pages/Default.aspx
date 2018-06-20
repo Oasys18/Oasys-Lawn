@@ -3,6 +3,15 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 <style>
 
+    body {
+    background-image:
+    url("http://3.bp.blogspot.com/-weZIsZhejPM/UR63Ayy8mxI/AAAAAAAAAQQ/Vty9AoUGBIU/s1600/dreamstimesmall_5399026.jpg");
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    
+}
+
         .linkbox {
             position: absolute; 
             height: 0; 
@@ -54,7 +63,7 @@
  
     </style>
 
-    <div style="width: 60%; height: 600px; background-color: #EAEAEA; left: 10%; position: relative">
+    <div style="width: 50%; height: 500px; background-color: #FFFAF0; left: 25%; position: relative">
         <asp:Label ID="Label1" runat="server" Text="TREAT YOUR LAWN WITH CARE" Font-Size="XX-Large" style="left: 3%; position: relative"></asp:Label>
         <div style="width: 60%; height: 100%; left: 5%; position: relative">
             <a href="About.aspx" class="linkbox">
@@ -68,7 +77,7 @@
                 <div class="overlay"></div>
             </a>
             <a href="/Account/Register.aspx" class="linkbox" style="top: 60%">
-                <img alt="" src="../Images/profile-icon-9.png" class="image"/>
+                <img alt="" src="../Images/handshake-1.jpg" class="image"/>
                 <div class="text">Get started today!</div>
                 <div class="overlay"></div>
             </a>
